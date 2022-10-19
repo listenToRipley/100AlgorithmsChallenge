@@ -4,6 +4,9 @@ export function add(param1: number, param2: number): number {
 
 export function add2(...param1: number[]): number {
   let sum = 0;
+  //long
+  // let total = 0;
+  // params.forEach((num) => { total += num})
 
   return param1.reduce((a,c) => {return a + c}, sum)
 };
